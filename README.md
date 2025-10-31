@@ -1,6 +1,14 @@
-# Energy Consumption Analysis System
+# Energy Consumption Analysis System 🏭
 
-This system monitors and analyzes energy consumption in a petrochemical plant, providing real-time analytics, alerts, and daily reports.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg)](https://github.com/rushiiu07/Energy-Consumption-Analysis-System/graphs/commit-activity)
+
+A comprehensive system for monitoring and analyzing energy consumption in petrochemical plants, providing real-time analytics, alerts, and daily reports.
+
+<div align="center">
+  <img src="docs/images/system_overview.png" alt="System Overview" width="800"/>
+</div>
 
 ## System Requirements
 
