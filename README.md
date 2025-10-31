@@ -4,6 +4,35 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg)](https://github.com/rushiiu07/Energy-Consumption-Analysis-System/graphs/commit-activity)
 
+## 📊 System Overview
+
+This system provides comprehensive energy consumption monitoring and analysis for petrochemical plants. It features real-time data collection, advanced analytics, and automated reporting.
+
+### Architecture Overview
+
+```mermaid
+graph TD
+    subgraph Data Collection Layer
+        S1[Temperature Sensors] --> DC[Data Collector]
+        S2[Power Meters] --> DC
+        S3[Flow Meters] --> DC
+    end
+    
+    subgraph Processing Layer
+        DC -->|Raw Data| EA[Energy Analyzer]
+        EA -->|Metrics| AS[Alert System]
+        EA -->|Analytics| VS[Visualization]
+    end
+    
+    subgraph Output Layer
+        AS -->|Alerts| UI[Dashboard]
+        VS -->|Charts| UI
+        VS -->|Reports| RP[Reports]
+    end
+```
+
+For detailed architectural documentation, please see [Architecture Documentation](docs/architecture/ARCHITECTURE.md)
+
 A comprehensive system for monitoring and analyzing energy consumption in petrochemical plants, providing real-time analytics, alerts, and daily reports.
 
 <div align="center">
